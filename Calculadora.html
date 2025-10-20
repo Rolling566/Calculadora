@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora | Projeto</title>
+    <link rel="stylesheet" href="Calc.css">
+<body>
+    <div class="calculadora">
+        <input type="text" readonly id="tela" class="tela">
+        <div class="teclado">
+            <div id="numeros" class="numeros">
+                <button onclick="mostrarnatela('%')">%</button>
+                <button onclick="mostrarnatela('**')">^</button>
+                <button onclick="limpartela()">C</button>
+                <button onclick="mostrarnatela('7')">7</button>
+                <button onclick="mostrarnatela('8')">8</button>
+                <button onclick="mostrarnatela('9')">9</button>
+                <button onclick="mostrarnatela('4')">4</button>
+                <button onclick="mostrarnatela('5')">5</button>
+                <button onclick="mostrarnatela('6')">6</button>
+                <button onclick="mostrarnatela('1')">1</button>
+                <button onclick="mostrarnatela('2')">2</button>
+                <button onclick="mostrarnatela('3')">3</button>
+                <button onclick="mostrarnatela('.')">.</button>
+                <button onclick="mostrarnatela('0')">0</button>
+            </div>
+            <div id="operacoes" class="operacoes">
+                <button onclick="mostrarnatela('+')">+</button>
+                <button onclick="mostrarnatela('*')">x</button>
+                <button onclick="mostrarnatela('/')">÷</button>
+                <button onclick="mostrarnatela('-')">-</button>
+                <button onclick="resolver()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
