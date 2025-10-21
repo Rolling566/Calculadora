@@ -78,14 +78,19 @@ body {
 .numeros button:hover {
     background-color: hsla(240, 7%, 80%, 0.984);
     transform: scale(1.02);
+    border: none;
 }
 .operacoes button:hover {
     background-color: hsl(32, 70%, 76%);
     transform: scale(1.02);
+    border: none;
 }
 .numeros button:active {
     background-color: hsla(240, 7%, 90%, 0.984);
+    border: none;
 }
 .operacoes button:active {
     background-color: hsl(32, 70%, 86%);
+    border: none;
 }
+
