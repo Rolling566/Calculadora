@@ -26,8 +26,9 @@ function resolver() {
         tela.value = eval(tela.value)
         } 
         catch (error) {
-        tela.value = '[ERROR] Faz contas direito'
+        tela.value = '[ERROR]'
         }
     }
 }
+
 
