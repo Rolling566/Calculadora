@@ -1,7 +1,7 @@
 var tela = document.getElementById('tela')
 
 function mostrarnatela(input) {
-    if (tela.value === 'ERROR'){
+    if (tela.value === '[ERROR]'){
         tela.value = input
     }   
     else {
@@ -30,5 +30,6 @@ function resolver() {
         }
     }
 }
+
 
 
