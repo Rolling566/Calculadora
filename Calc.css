@@ -65,6 +65,7 @@ body {
     background-color: #9f9facfb;
     border: none;
     box-shadow: 1px 1px 2px black;
+    transition: transform 0.4s ease;
 }
 .operacoes button {
     border-radius: 20px;
@@ -72,10 +73,19 @@ body {
     background-color: #e09b4c;
     border: none;
     box-shadow: 1px 1px 2px black;
+    transition: transform 0.4s ease;
 }
 .numeros button:hover {
     background-color: hsla(240, 7%, 80%, 0.984);
+    transform: scale(1.02);
 }
 .operacoes button:hover {
     background-color: hsl(32, 70%, 76%);
+    transform: scale(1.02);
+}
+.numeros button:active {
+    background-color: hsla(240, 7%, 90%, 0.984);
+}
+.operacoes button:active {
+    background-color: hsl(32, 70%, 86%);
 }
